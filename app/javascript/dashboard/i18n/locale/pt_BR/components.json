@@ -42,7 +42,11 @@
   },
   "FEATURE_SPOTLIGHT": {
     "LEARN_MORE": "Saiba mais",
-    "WATCH_VIDEO": "Watch video"
+    "WATCH_VIDEO": "Assistir vídeo",
+    "AGENTS_MANAGEMENT": {
+      "TITLE": "Gerenciamento de Agentes",
+      "DESCRIPTION": "Os agentes são membros da sua equipe de suporte ao cliente que podem visualizar e responder às mensagens dos usuários. Eles são a linha de frente do seu atendimento, capazes de atribuir conversas, aplicar tags, resolver tickets e fornecer suporte personalizado. Uma gestão eficiente dos agentes garante melhor distribuição da carga de trabalho e atendimento mais ágil aos seus clientes."
+    }
   },
   "DURATION_INPUT": {
     "MINUTES": "Minutos",

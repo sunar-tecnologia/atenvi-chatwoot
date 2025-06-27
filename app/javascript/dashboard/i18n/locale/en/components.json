@@ -42,7 +42,11 @@
   },
   "FEATURE_SPOTLIGHT": {
     "LEARN_MORE": "Learn more",
-    "WATCH_VIDEO": "Watch video"
+    "WATCH_VIDEO": "Watch video",
+    "AGENTS_MANAGEMENT": {
+      "TITLE": "Agent Management",
+      "DESCRIPTION": "Agents are members of your customer support team who can view and respond to user messages. They are the frontline of your customer service, capable of assigning conversations, applying tags, resolving tickets, and providing personalized support. Efficient agent management ensures better workload distribution and faster customer service."
+    }
   },
   "DURATION_INPUT": {
     "MINUTES": "Minutes",

@@ -14,6 +14,7 @@ import EditAgent from './EditAgent.vue';
 import BaseSettingsHeader from '../components/BaseSettingsHeader.vue';
 import SettingsLayout from '../SettingsLayout.vue';
 import Button from 'dashboard/components-next/button/Button.vue';
+import AgentsSpotlight from 'dashboard/components-next/feature-spotlight/AgentsSpotlight.vue';
 
 const getters = useStoreGetters();
 const store = useStore();
@@ -145,7 +146,6 @@ const confirmDeletion = () => {
     <template #header>
       <BaseSettingsHeader
         :title="$t('AGENT_MGMT.HEADER')"
-        :description="$t('AGENT_MGMT.DESCRIPTION')"
         :link-text="$t('AGENT_MGMT.LEARN_MORE')"
         feature-name="agents"
       >
@@ -157,6 +157,7 @@ const confirmDeletion = () => {
           />
         </template>
       </BaseSettingsHeader>
+      <AgentsSpotlight />
     </template>
     <template #body>
       <table class="divide-y divide-slate-75 dark:divide-slate-700">
